@@ -22,14 +22,14 @@ var transport=nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: 'sarkar.pradip2002@gmail.com',
-        pass: 'qfnt nrtp aqfh qday',
+        pass: 'isqa diic pvvo kneu',
     },
 });
 var transportme=nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: 'sarkar.pradip2002@gmail.com',
-        pass: 'qfnt nrtp aqfh qday',
+        pass: 'isqa diic pvvo kneu',
     },
 });
 
@@ -55,7 +55,7 @@ var mailoptionsme= {
  transport.sendMail(mailoptions, function(error,info){
     if(error)
     {
-        res.send("Failed to sent the mail");
+        res.send("Failed to sent the mail1");
     }
     else{
         res.send("Email sent successfully");
@@ -64,7 +64,7 @@ var mailoptionsme= {
 transportme.sendMail(mailoptionsme, function(error,info){
     if(error)
     {
-        res.send("Failed to sent the mail");
+        res.send("Failed to sent the mail2");
     }
     else{
         res.send("Email sent successfully");
